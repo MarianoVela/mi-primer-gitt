@@ -1,144 +1,161 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Clase 2 dos</title>
     <!-- <a href="./Tablas/tablas.html">Ir a las tablas</a> -->
-    
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <!-- Loguito  -->
-        <img src="https://via.placeholder.com/50" alt="">
-        <!-- La barra de navegacion es con -->
-        <nav>
-            <ul>
-                <li>
-                    <a href="./Tablas/tablas.html">Ir a tablas</a>
-                </li>
-            </ul>
-    <!-- <a href="./Tablas/tablas.html">Ir a Tablas</a> -->
-    
-    <!-- Div -->
-        </nav>
+      <!-- Loguito  -->
+      <img src="https://via.placeholder.com/50" alt="" />
+      <!-- La barra de navegacion es con -->
+      <nav>
+        <ul>
+          <li>
+            <a href="./Tablas/tablas.html">Ir a tablas</a>
+          </li>
+        </ul>
+        <!-- <a href="./Tablas/tablas.html">Ir a Tablas</a> -->
+
+        <!-- Div -->
+      </nav>
     </header>
 
     <!-- CONTENIDO PRINCIPAL DE LA PAGINA -->
     <main>
+      <section>
+        <h1>hola</h1>
+        <p>Bienvenidos a mi pagina web, soy Mariano</p>
+        <a href="#">Contactanos</a>
+      </section>
 
-<section>
-    <h1>hola</h1>
-    <p>Bienvenidos a mi pagina web, soy Mariano</p>
-    <a href="#">Contactanos</a>
-
-
-</section>
-
-<img src="./img/cavaniimg.jpg" alt="Matador">
-<!-- Seccion 2  -->
-    <section>
+      <img src="./img/cavaniimg.jpg" alt="Matador" />
+      <!-- Seccion 2  -->
+      <section>
         <h2>Mis sevicios</h2>
 
         <!-- Sevicio 1 -->
 
         <article>
-            <h3>Paginas web</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <a href="#">Ver mas</a>
-            
+          <h3>Paginas web</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <a href="#">Ver mas</a>
         </article>
 
         <!-- Servicio 2 -->
 
         <div>
-            <h3>Seo</h3>
-            <p>Lorem ipsum dolor sit.</p>
-            <a href="#">Ver mas</a>
+          <h3>Seo</h3>
+          <p>Lorem ipsum dolor sit.</p>
+          <a href="#">Ver mas</a>
         </div>
-    </section>
+      </section>
 
-    <!-- Seccion 3       -->
-    <section>
+      <!-- Seccion 3       -->
+      <section>
         <h2>Contactame</h2>
         <form>
-
-            <div>
+          <div>
             <label for="Name">Nombre:</label>
-            <input type="text" id="Name" placeholder="Miguel Merentiel" required>
-        </div>
+            <input
+              type="text"
+              id="Name"
+              placeholder="Miguel Merentiel"
+              required
+            />
+          </div>
 
-        <div>
+          <div>
             <label for="Email">Email:</label>
-            <input type="Email" id="Email" placeholder="Email@hotmail.com">
-        </div>
-        
-        <div>
+            <input type="Email" id="Email" placeholder="Email@hotmail.com" />
+          </div>
+
+          <div>
             <label for="Edad">Edad:</label>
-            <input type="number" id="Edad" placeholder="21" min="18" max="101">
-        </div>
-        <div>
+            <input
+              type="number"
+              id="Edad"
+              placeholder="21"
+              min="18"
+              max="101"
+            />
+          </div>
+          <div>
             <label for="pass">Contraseña:</label>
-            <input type="password" id="pass" placeholder="password">
-        </div>
+            <input type="password" id="pass" placeholder="password" />
+          </div>
 
-        <div>
-            <input type="checkbox" id="terminos"
-            required>
-            <label for="terminos">Acepto los terminos y condiciones <a href="#">Ver terminos</a></label>
+          <div>
+            <input type="checkbox" id="terminos" required />
+            <label for="terminos"
+              >Acepto los terminos y condiciones
+              <a href="#">Ver terminos</a></label
+            >
+          </div>
 
-        </div>
-
-        <div>
+          <div>
             <p>Gustos de helado favoritos:</p>
             <div>
-                <input type="radio" id="chocolate" name="Gustos">
-                <label for="chocolate">chocolate</label>            
+              <input type="radio" id="chocolate" name="Gustos" />
+              <label for="chocolate">chocolate</label>
             </div>
             <div>
-                <input type="radio" id="dulce de leche" name="Gustos">
-                <label for="dulce de leche">dulce de leche</label>
-                <div>   
-                    <input   type="radio" id="granizado" name="Gustos">
-                    <label for="granizado">granizado</label>
-                </div>
+              <input type="radio" id="dulce de leche" name="Gustos" />
+              <label for="dulce de leche">dulce de leche</label>
+              <div>
+                <input type="radio" id="granizado" name="Gustos" />
+                <label for="granizado">granizado</label>
+              </div>
             </div>
-        </div>
-        
-        <div>
+          </div>
+
+          <div>
             <label for="juego">Jugar</label>
             <select name="juego" id="juego">
-                <option value="piedra">piedra</option>
-                <option value="papel">papel</option>
-                <option value="tijera">tijera</option>
+              <option value="piedra">piedra</option>
+              <option value="papel">papel</option>
+              <option value="tijera">tijera</option>
             </select>
-        </div>
-        <div>
+          </div>
+          <div>
             <label for="mensaje">Mensaje:</label>
-            <br>
-            <textarea name="mensaje" id="mensaje" cols="30" rows="10" maxlength="100" placeholder="Dejanos tu mensaje"></textarea>
-        </div>
-        <div>
+            <br />
+            <textarea
+              name="mensaje"
+              id="mensaje"
+              cols="30"
+              rows="10"
+              maxlength="100"
+              placeholder="Dejanos tu mensaje"
+            ></textarea>
+          </div>
+          <div>
             <label for="telefono">Telefono:</label>
-            <input type="tel" name="telefono" id="telefono">
-        </div>
-    
-        <!-- Botoncito -->
-        <!-- <button>Enviar</button> -->
-        <input type="submit" value="Manda el form">
-    </form>
-    </section>
+            <input
+              type="tel"
+              name="telefono"
+              id="telefono"
+              placeholder="0123456789"
+            />
+          </div>
+
+          <!-- Botoncito -->
+          <!-- <button>Enviar</button> -->
+          <input type="submit" value="Manda el form" />
+        </form>
+      </section>
     </main>
 
     <!-- Footer pie de pagina -->
     <footer>
-        <p>Este es mi primer footer</p>
-        <ul>
-            <li> <a href="#">Mi linkedin</a></li>
-            <li><a href="#">Facebook</a></li>  
-            <li><a href="#">Instagram</a></li>
-        </ul>
+      <p>Este es mi primer footer</p>
+      <ul>
+        <li><a href="#">Mi linkedin</a></li>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Instagram</a></li>
+      </ul>
     </footer>
-    
-</body>
+  </body>
 </html>
